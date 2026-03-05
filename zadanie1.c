@@ -22,21 +22,6 @@ int main(int argc, char *argv[]) {
         Error();
     }
 
-    printf("--- Configuration ---\n");
-
-    // Печатаем пароль (скрываем его или пишем "not set")
-    if (pass != NULL) {
-        printf("Password: %s\n", pass);
-    } else {
-        printf("Password: (not set)\n");
-    }
-
-    // Печатаем файлы
-    printf("Input file:  %s\n", infile  ? infile  : "none");
-    printf("Output file: %s\n", outfile ? outfile : "none");
-
-    printf("---------------------\n");
-
     free(pass);
     free(infile);
     free(outfile);
