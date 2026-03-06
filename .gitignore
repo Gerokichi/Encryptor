@@ -1,7 +1,4 @@
 .idea
 CMakeLists.txt
-zadanie1.exe
-tests.txt
-input.txt
-output.txt
-newput.txt
+test.sh
+superrr_test
